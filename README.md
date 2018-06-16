@@ -44,6 +44,7 @@ Basically, for given a specific set point, random input vectors containing a cer
 *Verbose*: enable progress prints (for debug)
 
 *‫*‬Output parameters*‫*‬
+
 *P* - the vector containing the % success of exact detections for each tested fraction. For example if MinFr = 0.3 , MaxFr = 0.51 , StepFr = 0.1 and the results were
       98% success for f=0.3 , 100% success for f=0.4 and 97% success for f=0.5 the output vector would be [ 0.97 , 1.00 , 0.98 ]  
 
@@ -114,6 +115,7 @@ The basic function in the case of deletions is DIRACC_duplications.m, whose inpu
 *Verbose*:enable progress prints (for debug)
 
 **Output parameters**
+
 *P* - the vector containing the % success of CNV carrier detection for different f values. Detection is considered correct if the correct sample is detected while the copy number may differ according to "AllowedDelta". 
 
 *Pc* - Percentage of success in the same format as P. However, in this case successful detection is declared if the correct carrier is found while ignoring the exact copy number (any value Y>0 is considered correct).
@@ -121,6 +123,7 @@ The basic function in the case of deletions is DIRACC_duplications.m, whose inpu
 **Example function call**: 
 
 CarrierVec=[1,4];
+
 [ P , Pc ] = DIRACC_duplications( B1024_36 , CarrierVec , 10000000 , 500 , 36 , 0.1 , true , -2 , 0.3 , 0.1 , 0.91 , 0.97 , true  )
 
 B1024_36: Is a Bernoulli sensing matrix of 1024 individuals with 36 pools, available by loading Bernulli1024_36_0125.mat
