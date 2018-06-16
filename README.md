@@ -153,6 +153,6 @@ Verbose = true, i.e., enables debug prints while running the simulation
 
 References
 ------------
-Please send any comments/bug reports to: Noam Shental, shental@openu.ac.il
+Please send any comments or bug reports to: Noam Shental, shental@openu.ac.il
 
 
