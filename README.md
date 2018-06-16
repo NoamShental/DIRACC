@@ -1,7 +1,10 @@
-**DIRACC feasibility study results**
+
+**DIRACC**
 ====================================
 
-This package contains the basic Matlab code used to test the DIRACC approach for efficient detection of carriers of rare copy number variations (CNV). The approach combines the mathematical field of compressed sensing and digital PCR (dPCR) for detecting carriers of germline deletions (heterozygous or homozygous) or of germline duplications of rare CNVs. 
+This package contains the basic Matlab code used to test the DIRACC approach presented in the manuscript "Detecting carriers of rare copy number variations via compressed digital PCR" by Adam Schapira and Noam Shental. 
+
+The approach combines the mathematical field of compressed sensing and digital PCR (dPCR) for detecting carriers of germline deletions (heterozygous or homozygous) or of germline duplications of rare CNVs. 
 
 DIRACC stands for DIgital PCR for rare CNV carrier detection via Compressed Sensing. 
 
