@@ -158,4 +158,3 @@ References
 ------------
 Please send any comments or bug reports to: Noam Shental, shental@openu.ac.il
 
-Arxive version will be submitted soon...
